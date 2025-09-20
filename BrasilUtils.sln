@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrasilUtils.Api", "src\BrasilUtils.Api\BrasilUtils.Api.csproj", "{3B303E70-111F-41E4-8C44-8B6981820937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrasilUtils.Api.Tests", "tests\BrasilUtils.Api.Tests\BrasilUtils.Api.Tests.csproj", "{A3A7CF2C-148E-462C-8217-6A2F2CE9C2EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B303E70-111F-41E4-8C44-8B6981820937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B303E70-111F-41E4-8C44-8B6981820937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B303E70-111F-41E4-8C44-8B6981820937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B303E70-111F-41E4-8C44-8B6981820937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3A7CF2C-148E-462C-8217-6A2F2CE9C2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A7CF2C-148E-462C-8217-6A2F2CE9C2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A7CF2C-148E-462C-8217-6A2F2CE9C2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A7CF2C-148E-462C-8217-6A2F2CE9C2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

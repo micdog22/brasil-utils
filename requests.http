@@ -1,0 +1,34 @@
+
+### CPF
+POST http://localhost:5189/api/validator/cpf
+Content-Type: application/json
+
+{ "value": "390.533.447-05" }
+
+### CNPJ
+POST http://localhost:5189/api/validator/cnpj
+Content-Type: application/json
+
+{ "value": "45.723.174/0001-10" }
+
+### CEP
+GET http://localhost:5189/api/cep/01001000
+
+### PIX
+POST http://localhost:5189/api/pix/static-payload
+Content-Type: application/json
+
+{
+  "key": "email@exemplo.com",
+  "merchantName": "Loja Exemplo",
+  "merchantCity": "SAO PAULO",
+  "amount": 123.45,
+  "description": "Pedido 123",
+  "referenceLabel": "PEDIDO123"
+}
+
+### BOLETO
+POST http://localhost:5189/api/boleto/barcode-dv
+Content-Type: application/json
+
+{ "barcode43": "0019050095401448160690680935031433737003" }
